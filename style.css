@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 200px;
+}
+
+#header-logo{
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#header-links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    background-color:#1f2937;
+    justify-content: space-between;
+    height: 400px;
+    padding: 0 200px
+
+
+    
+}
+.hero-main{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+#hero-button{
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image{
+    background-color: grey ;
+    color: #e5e7eb;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    padding: 100px 50px;
+}
+.content{
+    display: flex;
+    height: 400px; ;
+}
+
+.content-h{
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 50px 200px;
+    justify-content: center;
+    
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 200px;
+
+}
+
+.cube{
+    text-align: center;
+    color: #1f2937;
+
+}
+
+.cube-img{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.quote-container{
+  padding: 150px 300px;
+  background-color: #e5e7eb;
+}   
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.Thor{
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.action-container{
+    padding: 120px 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.action-child{
+    display: flex;
+    padding: 50px 150px;
+    color: white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    
+}
+
+.action-text{
+   margin-right: 250px
+}
+
+.action-button{
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: normal;
+    border: 3px #e5e7eb solid;
+    border-radius: 10px;
+    padding: 5px 40px;
+    
+    background-color: #3882f6;
+}
+
+.footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
